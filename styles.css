@@ -1,0 +1,55 @@
+.container {
+    width: 400px;
+    padding: 20px;
+}
+
+.result {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.calc-button {
+    width: 25%;
+    height: 100px;
+    border: solid 1px black;
+    background-color: #c4c4c4;
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: lightslategray;
+}
+
+button:active {
+    background-color: whitesmoke;
+}
+
+.button-row {
+    display: flex;
+}
+
+.calc-button:last-child {
+    background-color: rgb(224, 158, 34);
+    color: white;
+}
+
+.calc-button:last-child:hover {
+    background-color: #cc8500;
+}
+
+.calc-button:last-child:active {
+    background-color: #ffcd70;
+}
+
+.bigger-button {
+    flex: 50%;
+}
+
+.biggest-button {
+    flex: 75%;
+}
